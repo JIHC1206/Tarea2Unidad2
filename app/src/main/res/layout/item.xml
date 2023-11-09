@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D7CCC8"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="381dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre : "
+            android:textSize="19sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="381dp"
+        android:layout_height="143dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/direccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Direccion : "
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/telefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Telefono : "
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/pedido"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:text="Pedido : "
+            android:textSize="24sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="381dp"
+        android:layout_height="110dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_eliminar"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:backgroundTint="#795548"
+            android:text="ELIMINAR PEDIDO"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btn_editar"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:backgroundTint="#795548"
+            android:layout_weight="1"
+            android:text="EDITAR PEDIDO"/>
+    </LinearLayout>
+
+</LinearLayout>
